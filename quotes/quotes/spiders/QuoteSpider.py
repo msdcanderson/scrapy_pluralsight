@@ -37,7 +37,6 @@ class QuotespiderSpider(scrapy.Spider):
         for page in pages:
             yield scrapy.Request(page, self.parse)
 
-    # extract data
     def extractData(self, res):
         q = QuotesItem()
 
