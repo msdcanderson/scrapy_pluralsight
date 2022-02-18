@@ -7,4 +7,5 @@ Pluralsight Scrapy course
 scrapy startproject quotes
 cd quotes
 scrapy genspider QuoteSpider quotes.toscrape.com
+scrapy crawl QuoteSpider
 ```
